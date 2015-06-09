@@ -1,0 +1,95 @@
+*{
+  margin: 0; 
+  padding: 0;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+body{
+  -webkit-background-size: 160%;
+       -o-background-size: 160%;
+          background-size: 160%;
+      background-position: 55% 8%;
+  background-image: url("../images/background.jpg");
+  background-attachment: fixed;
+}
+.menu{
+  position: relative;
+  text-align: center;
+  font-size: 1.6em;
+  background: #fff;
+  font-family: "raleway";
+}
+.menu ul{
+  margin: 0; 
+  padding: 0; 
+  float: right;
+}
+.menu li{ 
+  list-style: none;
+  float: left;
+}
+.menu li a{
+  margin: .9em .9em 0px .9em;
+  text-decoration: none;
+  display: block;
+  color: #222;
+}  
+.menu.sticky {
+  width: 100%;
+  position: fixed;
+  background: #eee;
+}   
+.menu li a:hover{
+  color:rgba(100,100,100,.3);
+}    
+
+.menu li a.stickylinks{
+   margin: .5em .7em 0px .7em;
+   font-size: .9em;
+}
+.logo-top.stickylogo{
+  width: 45px; 
+  padding: 2px 0px; 
+  margin: 0;
+}
+.logo-top{
+  width: 60px; 
+  padding: 0.3em;
+}
+.logo-top:hover{
+  width: 55px;
+}
+.window{
+  height: 80%;
+  overflow: hidden;
+}
+.logo{
+  width: 70%;
+}
+.overlay
+{
+  content: "";
+  height: 100%;
+  width: 100%;
+  opacity: .2;
+  position: fixed;
+  background:url("../images/pattern.png") repeat;
+  z-index: -1;
+}
+.services{
+  padding: 8em;
+  background: #FFF;
+}
+.services p{
+  width: 50%;
+  text-align: justify;
+}
+@font-face {
+  font-family: 'raleway';
+  src: url('fonts/raleway.eot') format('embedded-opentype'), 
+  url('fonts/raleway.otf') format('otf'),
+  url('fonts/raleway.woff') format('woff'), 
+  url('fonts/raleway.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
