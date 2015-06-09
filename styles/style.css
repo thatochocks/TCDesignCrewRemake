@@ -10,14 +10,14 @@ body{
           background-size: 160%;
       background-position: 55% 8%;
   background-image: url("../images/background.jpg");
-  background-attachment: fixed;
+  /background-attachment: fixed;
 }
 .menu{
   position: relative;
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1.8em;
   background: #fff;
-  font-family: "raleway";
+  font-family: "GeosansLight";
 }
 .menu ul{
   margin: 0; 
@@ -37,7 +37,7 @@ body{
 .menu.sticky {
   width: 100%;
   position: fixed;
-  background: #eee;
+  background: #fff;
 }   
 .menu li a:hover{
   color:rgba(100,100,100,.3);
@@ -77,12 +77,80 @@ body{
   z-index: -1;
 }
 .services{
-  padding: 8em;
+  padding: 1em 2em;
   background: #FFF;
 }
-.services p{
-  width: 50%;
-  text-align: justify;
+.services h2{
+  text-align: center;
+  font-family: "raleway";
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+h2 span {
+  position: relative;
+  color: #222;
+}
+h2 span:after {
+  position: absolute;
+  content: '';
+  width: 15%;
+  height: 1px;
+  border-bottom: 2px solid #1facb5;
+  bottom: -2px;
+  left: 50%;
+  margin-left: -7.5%;
+}
+h3 {
+  position: relative;
+  text-align: center;
+}
+
+.service{
+    border: 1px solid rgba(100,100,100,.2);
+}
+
+.service h3{
+    text-align: center;
+    margin-top: -10px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.service h3 span{
+    background-color: white;
+    font-size: 1.8em;
+    margin-top: -0.3em;
+}
+.service p{
+  padding: 10px;
+  text-align: center;
+}
+
+
+.service h4 {
+  position: relative;
+  text-align: center;
+}
+
+.service h4 span {
+  background: #fff;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.service h4:before {
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+    top: 50%;
+  width: 100%;
+}
+.service h4:before {
+  left: 0;
 }
 @font-face {
   font-family: 'raleway';
@@ -90,6 +158,24 @@ body{
   url('fonts/raleway.otf') format('otf'),
   url('fonts/raleway.woff') format('woff'), 
   url('fonts/raleway.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'raleway-regular';
+  src: url('fonts/raleway-regular.eot') format('embedded-opentype'), 
+  url('fonts/raleway-regular.otf') format('otf'),
+  url('fonts/raleway-regular.woff') format('woff'), 
+  url('fonts/raleway-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GeosansLight';
+  src: url('fonts/GeosansLight.eot') format('embedded-opentype'), 
+  url('fonts/GeosansLight.otf') format('otf'),
+  url('fonts/GeosansLight.woff') format('woff'), 
+  url('fonts/GeosansLight.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
