@@ -30,8 +30,17 @@
 	   </div>
 		<div class="window">
 		</div>
-		<div class="services row row-centered">
-			<h2><span>WHAT WE DO!</span></h2>
+		<div class="about row">
+			<h2 class="heading"><span>ABOUT THE TCDESIGNCREW</span></h2>
+			<div class="col-md-8 col-md-offset-2">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio temporibus cumque doloremque quas eaque porro beatae laboriosam illum corporis, in assumenda soluta odio. Praesentium odio sunt voluptas, possimus ullam quo architecto perferendis, adipisci deserunt itaque dignissimos modi voluptates dolores, expedita iure vitae, assumenda earum ducimus consequatur. Tenetur voluptatum similique cumque, voluptatem excepturi quas soluta facilis illum ratione aliquam hic.
+				</p>
+			</div>
+		</div>
+
+		<div class="services row">
+			<h2 class="heading"><span>WHAT WE DO!</span></h2>
 			<div class="col-md-2 col-md-offset-1">
 				<div class="service">
     				<h3><span><span class="glyphicon glyphicon-envelope"></span></span></h3><br>

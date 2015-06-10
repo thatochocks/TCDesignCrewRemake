@@ -18,6 +18,7 @@ body{
   font-size: 1.8em;
   background: #fff;
   font-family: "GeosansLight";
+  z-index: 100;
 }
 .menu ul{
   margin: 0; 
@@ -37,7 +38,7 @@ body{
 .menu.sticky {
   width: 100%;
   position: fixed;
-  background: #fff;
+  background: #ddd;
 }   
 .menu li a:hover{
   color:rgba(100,100,100,.3);
@@ -76,19 +77,29 @@ body{
   background:url("../images/pattern.png") repeat;
   z-index: -1;
 }
+.about{
+  background: #fff;
+  padding: 5em;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: "GeosansLight";
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
 .services{
   padding: 1em 2em;
+  font-family: "GeosansLight";
   background: #FFF;
 }
-.services h2{
+.heading{
   text-align: center;
   font-family: "raleway";
-  font-size: 3em;
+  font-size: 20pt;
   margin-bottom: 1em;
 }
 h2 span {
   position: relative;
   color: #222;
+  
 }
 h2 span:after {
   position: absolute;
@@ -107,6 +118,7 @@ h3 {
 
 .service{
     border: 1px solid rgba(100,100,100,.2);
+    margin: 2em 0;
 }
 
 .service h3{
@@ -131,6 +143,7 @@ h3 {
 .service h4 {
   position: relative;
   text-align: center;
+  font-family: "raleway";
 }
 
 .service h4 span {
