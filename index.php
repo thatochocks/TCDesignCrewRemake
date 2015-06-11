@@ -15,13 +15,12 @@
 	<div class="container-fluid">
 	   <div class="row menu">
 	   		<div class="col-md-2">
-	   			<a href="#2"><img src="images/hlogo.png" alt="logo" class="logo-top" /></a>
+	   			<a href="#2"><img src="images/logo.png" alt="logo" class="logo-top" /></a>
 	   		</div>
 	   		<div class="col-md-9">
 		   		<ul>
 		   			<li><a href="">Home</a></li>
 		   			<li><a href="">Services</a></li>
-		   			<li><a href="">Plans</a></li>
 		   			<li><a href="">Works</a></li>
 		   			<li><a href="">Team</a></li>
 		   			<li><a href="">Contact</a></li>
@@ -77,6 +76,12 @@
 				</div>
 			</div>
 		</div>
+		<div class="stats row">
+		
 		</div>
+		<div class="works row">
+			<h2 class="heading"><span>WORKS</span></h2>
+		</div>
+	</div>
 	</body>
 </html>

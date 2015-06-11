@@ -5,12 +5,12 @@
   transition: all 0.4s ease;
 }
 body{
-  -webkit-background-size: 160%;
-       -o-background-size: 160%;
-          background-size: 160%;
-      background-position: 55% 8%;
+  -webkit-background-size: 100%;
+       -o-background-size: 100%;
+          background-size: 100%;
+      background-position: 0% 0%;
   background-image: url("../images/background.jpg");
-  /background-attachment: fixed;
+  background-attachment: fixed;
 }
 .menu{
   position: relative;
@@ -19,6 +19,7 @@ body{
   background: #fff;
   font-family: "GeosansLight";
   z-index: 100;
+  border-bottom: 2px solid #1facb5;
 }
 .menu ul{
   margin: 0; 
@@ -33,12 +34,12 @@ body{
   margin: .9em .9em 0px .9em;
   text-decoration: none;
   display: block;
-  color: #222;
+  color: #000;
 }  
 .menu.sticky {
   width: 100%;
   position: fixed;
-  background: #ddd;
+  background: #fff;
 }   
 .menu li a:hover{
   color:rgba(100,100,100,.3);
@@ -49,16 +50,16 @@ body{
    font-size: .9em;
 }
 .logo-top.stickylogo{
-  width: 45px; 
+  width: 100px; 
   padding: 2px 0px; 
   margin: 0;
 }
 .logo-top{
-  width: 60px; 
+  width: 150px; 
   padding: 0.3em;
 }
 .logo-top:hover{
-  width: 55px;
+  width: 130px;
 }
 .window{
   height: 80%;
@@ -77,18 +78,13 @@ body{
   background:url("../images/pattern.png") repeat;
   z-index: -1;
 }
+.about,.services,.stats,.works{padding: 5em; text-align: center; border-bottom: 1px solid rgba(0,0,0,.1);font-family: "GeosansLight";}
 .about{
   background: #fff;
-  padding: 5em;
-  text-align: center;
   font-size: 1.2em;
-  font-family: "GeosansLight";
-  border-bottom: 1px solid rgba(0,0,0,.1);
 }
 .services{
-  padding: 1em 2em;
-  font-family: "GeosansLight";
-  background: #FFF;
+  background: #eee;
 }
 .heading{
   text-align: center;
@@ -111,16 +107,18 @@ h2 span:after {
   left: 50%;
   margin-left: -7.5%;
 }
+
 h3 {
   position: relative;
   text-align: center;
 }
 
+
+/* servivce boxes begin */
 .service{
     border: 1px solid rgba(100,100,100,.2);
     margin: 2em 0;
 }
-
 .service h3{
     text-align: center;
     margin-top: -10px;
@@ -128,9 +126,9 @@ h3 {
     line-height: 20px;
     font-size: 15px;
 }
-
 .service h3 span{
-    background-color: white;
+    background-color: #eee;
+    color: #465a65;
     font-size: 1.8em;
     margin-top: -0.3em;
 }
@@ -138,32 +136,43 @@ h3 {
   padding: 10px;
   text-align: center;
 }
-
-
 .service h4 {
   position: relative;
   text-align: center;
   font-family: "raleway";
 }
-
 .service h4 span {
-  background: #fff;
+  background: #eee;
   padding: 0 15px;
   position: relative;
   z-index: 1;
 }
-
 .service h4:before {
-  background: #ddd;
+  background: rgba(100,100,100,.2);
   content: "";
   display: block;
   height: 1px;
   position: absolute;
     top: 50%;
   width: 100%;
-}
-.service h4:before {
   left: 0;
+}
+/* servivce boxes end */
+
+
+
+
+.stats{
+  height: 50%;
+  background-image: url("../images/background2.jpg");
+  background-attachment: fixed;
+  -webkit-background-size: 100% 50%;
+       -o-background-size: 100% 50%;
+          background-size: 100% 50%;
+}
+.works{
+  height: 100%;
+  background: #fff;
 }
 @font-face {
   font-family: 'raleway';
