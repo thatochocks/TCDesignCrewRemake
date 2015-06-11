@@ -9,3 +9,4 @@ A remake of the experimental TCDesignCrew website
 * Create a contact form
 * Create admin interface to easily manage site content 
 * Introduce a join feature for new members of the Crew
+* Add Ruby on Rails as the backend
