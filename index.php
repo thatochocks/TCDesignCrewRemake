@@ -8,6 +8,8 @@
 		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
 		<script type="text/javascript" src="js/bootstraps.min.js"></script>
+		<script src="js/jquery.isotope.js" type="text/javascript"></script> 
+		    <script type="text/javascript" src="js/jquery-asPieProgress.js"></script>
 		<title>Tc Design Crew Remake</title>
 	</head>
 	<body>
@@ -77,10 +79,75 @@
 			</div>
 		</div>
 		<div class="stats row">
-		
-		</div>
+			<div class="col-md-2 col-md-offset-3 chart">
+                <div class="members" role="progressbar" data-goal="24">
+                    <div class="pie_progress__number">0</div>
+                    <div class="pie_progress__label">Members</div>
+                </div>
+            </div>
+            <div class="col-md-2 chart">
+                <div class="projects" role="progressbar" data-goal="56">
+                    <div class="pie_progress__number">0</div>
+                    <div class="pie_progress__label">Projects</div>
+                </div>
+            </div>
+            <div class="col-md-2 chart">
+                <div class="contributions" role="progressbar" data-goal="150">
+                    <div class="pie_progress__number">0</div>
+                    <div class="pie_progress__label">Contributions</div>
+                </div>
+            </div>
+        </div>
 		<div class="works row">
 			<h2 class="heading"><span>WORKS</span></h2>
+			<div class="portfolioFilter">
+
+				<a href="#" data-filter="*" class="current">All Categories</a>
+				<a href="#" data-filter=".people">People</a>
+				<a href="#" data-filter=".places">Places</a>
+				<a href="#" data-filter=".food">Food</a>
+				<a href="#" data-filter=".objects">Objects</a>
+
+			</div>
+
+			<div class="portfolioContainer">
+
+				<div class="objects">
+					<img src="images/watch.jpg" alt="image">
+				</div>
+				
+				<div class="people places">
+					<img src="images/surf.jpg" alt="image">
+				</div>	
+
+				<div class="food">
+					<img src="images/burger.jpg" alt="image">
+				</div>
+				
+				<div class="people places">
+					<img src="images/subway.jpg" alt="image">
+				</div>
+
+				<div class="places objects">
+					<img src="images/trees.jpg" alt="image">
+				</div>
+
+				<div class="people food objects">
+					<img src="images/coffee.jpg" alt="image">
+				</div>
+
+				<div class="food objects">
+					<img src="images/wine.jpg" alt="image">
+				</div>	
+				
+				<div class="food">
+					<img src="images/salad.jpg" alt="image">
+				</div>	
+				
+			</div>
+		</div>
+		<div class="team row">
+			<h2 class="heading"><span>OUR TEAM</span></h2>
 		</div>
 	</div>
 	</body>

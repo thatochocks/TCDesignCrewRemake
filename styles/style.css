@@ -78,12 +78,12 @@ body{
   background:url("../images/pattern.png") repeat;
   z-index: -1;
 }
-.about,.services,.stats,.works{padding: 5em; text-align: center; border-bottom: 1px solid rgba(0,0,0,.1);font-family: "GeosansLight";}
+.about,.services,.stats,.works,.team{padding: 5em; text-align: center; border-bottom: 1px solid rgba(0,0,0,.1);font-family: "GeosansLight";}
 .about{
   background: #fff;
   font-size: 1.2em;
 }
-.services{
+.services, .team{
   background: #eee;
 }
 .heading{
@@ -163,16 +163,78 @@ h3 {
 
 
 .stats{
-  height: 50%;
   background-image: url("../images/background2.jpg");
   background-attachment: fixed;
-  -webkit-background-size: 100% 50%;
-       -o-background-size: 100% 50%;
-          background-size: 100% 50%;
+  -webkit-background-size: 100% 100%;
+       -o-background-size: 100% 100%;
+          background-size: 100% 100%;
+  color: #FFF;
+  padding: 2em;
 }
+
+
+
+/*circular counters in the stats section begin*/
+.chart{
+  height: 50%;
+}
+.pie_progress {
+  text-align: center;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+.pie_progress svg {
+  margin: 0 auto;
+}
+.pie_progress__content,
+.pie_progress__number,
+.pie_progress__label,
+.pie_progress__icon {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.pie_progress__number {
+  font-size: 42px;
+}
+.pie_progress__label {
+  margin-top: 32px;
+  font-size: 1.3em;
+}
+/*circular counters in the stats section end*/
+
+/*isotopes gallery begin*/
+.portfolioContainer img{
+  width: 25em;
+  height: 15em;
+  padding: 1em;
+}
+.portfolioFilter a{
+  text-decoration: none;
+  display: inline-block;
+  padding: .5em 1em;
+  margin: 0 .5em;
+  text-align: center;
+  width: auto;
+  border: 1px solid #000;
+}
+.portfolioFilter a:hover{
+  text-decoration: none;
+  background-color: rgba(31, 172, 181, .2);
+  border: 1px solid rgba(31, 172, 181, .5);
+  }
+/*isotopes gallery end*/
 .works{
-  height: 100%;
   background: #fff;
+}
+.team{
+  height: 50%;
 }
 @font-face {
   font-family: 'raleway';
@@ -201,3 +263,7 @@ h3 {
   font-weight: normal;
   font-style: normal;
 }
+
+
+
+
