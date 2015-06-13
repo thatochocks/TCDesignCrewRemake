@@ -78,12 +78,12 @@ body{
   background:url("../images/pattern.png") repeat;
   z-index: -1;
 }
-.about,.services,.stats,.works,.team{padding: 5em; text-align: center; border-bottom: 1px solid rgba(0,0,0,.1);font-family: "GeosansLight";}
+.about,.services,.stats,.works,.our-team{padding: 5em; text-align: center; border-bottom: 1px solid rgba(0,0,0,.1);font-family: "GeosansLight";}
 .about{
   background: #fff;
   font-size: 1.2em;
 }
-.services, .team{
+.services, .our-team{
   background: #eee;
 }
 .heading{
@@ -92,12 +92,12 @@ body{
   font-size: 20pt;
   margin-bottom: 1em;
 }
-h2 span {
+.heading span {
   position: relative;
   color: #222;
   
 }
-h2 span:after {
+.heading span:after {
   position: absolute;
   content: '';
   width: 15%;
@@ -221,6 +221,7 @@ h3 {
   padding: .5em 1em;
   margin: 0 .5em;
   text-align: center;
+  color: #000;
   width: auto;
   border: 1px solid #000;
 }
@@ -233,9 +234,20 @@ h3 {
 .works{
   background: #fff;
 }
-.team{
-  height: 50%;
+.our-team{
+  
 }
+.bio *{padding: .3em;width: 80%; margin:0 auto;}
+.bio img{ width: 80%; padding: 0;}
+.bio h1{font-size: 1.5em; background: #aaa;}
+.bio h2{font-size: 1.2em; background: #ddd;}
+.bio h3{font-size: 1.2em; background: #ddd;}
+.bio p{font-size: 1.2em; background: #fbfbfb;}
+.team .item{border: 5px solid rgba(31, 172, 181, .3); cursor: pointer; margin:0 3px;}
+.team img{width: 100%;}
+.team h1, .team h2{margin: 0; text-align: center; padding: .8em 0;}
+.team h1{background: #fff; font-size: 1.5em; }
+.team h2{background: #333; color: #ccc; font-size: 1.2em;}
 @font-face {
   font-family: 'raleway';
   src: url('fonts/raleway.eot') format('embedded-opentype'), 

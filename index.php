@@ -5,11 +5,15 @@
 		<meta name="keywords" content="web, design, botswana, company, tc, design, development, software, programming, bw, co.bw, africa">
 		<link href="styles/style.css" rel="stylesheet" type="text/css" />
 		<link href="styles/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="styles/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="styles/slick-theme.css"/>
 		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-		<script type="text/javascript" src="js/script.js"></script>
 		<script type="text/javascript" src="js/bootstraps.min.js"></script>
-		<script src="js/jquery.isotope.js" type="text/javascript"></script> 
-		    <script type="text/javascript" src="js/jquery-asPieProgress.js"></script>
+		<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+		<script type="text/javascript" src="js/jquery-asPieProgress.js"></script>
+		<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="js/slick.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 		<title>Tc Design Crew Remake</title>
 	</head>
 	<body>
@@ -146,8 +150,17 @@
 				
 			</div>
 		</div>
-		<div class="team row">
-			<h2 class="heading"><span>OUR TEAM</span></h2>
+		<div class="our-team row">
+			<h2 class="heading"><span>MEET THE TEAM</span></h2>
+			<div class="col-md-7 team">
+				  <div class="item" name="Thato Chocks Matjologwe" alias="ThatoChocks" expertise="Javascript, PHP, HTML, C#, Java, Wordpress, Ruby" bio="Fresh out of school graduate, looking to make an impact in the IT industry."><h1>1ThatoChocks</h1><img src="images/chocks.jpg" alt=""><h2>programmer</h2></div>
+				  <div class="item" name="Thato Chocks Matjologwe" alias="ThatoChocks" expertise="Javascript, PHP, HTML, C#, Java" bio="Fresh out of school graduate, looking to make an impact in the IT industry."><h1>2ThatoChocks</h1><img src="images/chocks.jpg" alt=""><h2>programmer</h2></div><div class="item" name="Thato Chocks Matjologwe" alias="ThatoChocks" expertise="Javascript, PHP, HTML, C#, Java" bio="Fresh out of school graduate, looking to make an impact in the IT industry."><h1>4ThatoChocks</h1><img src="images/chocks.jpg" alt=""><h2>programmer</h2></div><div class="item" name="Thato Chocks Matjologwe" alias="ThatoChocks" expertise="Javascript, PHP, HTML, C#, Java" bio="Fresh out of school graduate, looking to make an impact in the IT industry."><h1>3ThatoChocks</h1><img src="images/chocks.jpg" alt=""><h2>programmer</h2></div><div class="item" name="Thato Chocks Matjologwe" alias="ThatoChocks" expertise="Javascript, PHP, HTML, C#, Java" bio="Fresh out of school graduate, looking to make an impact in the IT industry."><h1>5ThatoChocks</h1><img src="images/chocks.jpg" alt=""><h2>programmer</h2></div>
+				  <div class="item" name="Thato Chocks Matjologwe" alias="ThatoChocks" expertise="Javascript, PHP, HTML, C#, Java" bio="Fresh out of school graduate, looking to make an impact in the IT industry."><h1>1ThatoChocks</h1><img src="images/chocks.jpg" alt=""><h2>programmer</h2></div>
+				  <div class="item" name="Thato Chocks Matjologwe" alias="ThatoChocks" expertise="Javascript, PHP, HTML, C#, Java" bio="Fresh out of school graduate, looking to make an impact in the IT industry."><h1>2ThatoChocks</h1><img src="images/chocks.jpg" alt=""><h2>programmer</h2></div><div class="item" name="Thato Chocks Matjologwe" alias="ThatoChocks" expertise="Javascript, PHP, HTML, C#, Java" bio="Fresh out of school graduate, looking to make an impact in the IT industry."><h1>4ThatoChocks</h1><img src="images/chocks.jpg" alt=""><h2>programmer</h2></div><div class="item" name="Thato Chocks Matjologwe" alias="ThatoChocks" expertise="Javascript, PHP, HTML, C#, Java" bio="Fresh out of school graduate, looking to make an impact in the IT industry."><h1>3ThatoChocks</h1><img src="images/chocks.jpg" alt=""><h2>programmer</h2></div><div class="item" name="Thato Chocks Matjologwe" alias="ThatoChocks" expertise="Javascript, PHP, HTML, C#, Java" bio="Fresh out of school graduate, looking to make an impact in the IT industry."><h1>5ThatoChocks</h1><img src="images/chocks.jpg" alt=""><h2>programmer</h2></div>
+			</div>
+			<div class="col-md-4 col-md-offset-1 bio">
+				<img src="images/chocks.jpg" alt=""><h1>ThatoChocks</h1><h2>Programmer</h2><h3>Javascript, PHP, HTML, C#, Java </h3><p>Fresh out of school graduate, looking to make an impact in the IT industry.</p>
+			</div>
 		</div>
 	</div>
 	</body>
